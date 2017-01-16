@@ -376,3 +376,16 @@ nav li a {
     }
 }
 
+
+@media only screen and (max-width:350px) {
+    .hero {
+        margin: 0;
+        padding: 1em;
+    }
+    
+    
+    .hero span {
+        font-size: .5em;
+    }
+    
+}
