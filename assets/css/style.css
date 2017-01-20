@@ -118,7 +118,6 @@ nav {
     position: absolute;
     margin-left: 2em; 
     top: 500px;
-    
     border: 2px solid lightgray;
     box-shadow: 10pt 10pt lightgray; 
 }
@@ -200,6 +199,16 @@ div.img2 {
     max-height: 700px;
 }
 
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+iframe {
+     max-width: 90%;
+    height: auto;
+    margin-left: 10px;
+}
 
 
 /* Media Queries */
@@ -376,16 +385,29 @@ nav li a {
     }
 }
 
-
 @media only screen and (max-width:350px) {
     .hero {
         margin: 0;
-        padding: 1em;
+        padding: .5em;
     }
     
-    
+    .hero h1 {
+        font-size: 1.8em;
+        padding-top: 1em;
+    }
     .hero span {
         font-size: .5em;
     }
     
+   .content h1 {
+       font-size: 1.7em; 
+    }
+    
+    #long {
+        width: 150px;
+    }
+    
+    .separate h1 {
+        width: 100px;
+    }
 }
