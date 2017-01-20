@@ -165,9 +165,15 @@ div.img2 {
 }
 
 
+#desc {
+    width: 90%;
+    padding: 10px;
+}
 
-
-
+img.works {
+   max-width: 90%;
+    height: auto;
+}
 
 
 /* Back to top */
@@ -199,7 +205,7 @@ div.img2 {
     max-height: 700px;
 }
 
-img {
+img.workexpanded {
     max-width: 80%;
     height: auto;
 }
