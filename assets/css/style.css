@@ -164,6 +164,12 @@ div.img2 {
     width: auto;
 }
 
+
+#desc {
+    width: 90%;
+    padding: 10px;
+}
+
 img.works {
    max-width: 90%;
     height: auto;
